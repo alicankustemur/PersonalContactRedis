@@ -1,0 +1,7 @@
+**/target/*
+.springBeans
+.project
+.settings
+.classpath
+.gittignore
+/target/
