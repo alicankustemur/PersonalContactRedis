@@ -14,4 +14,6 @@ public interface PersonRepository
 	public List<Person> findAll();
 
 	public void delete(String id);
+
+	public void deleteAll();
 }

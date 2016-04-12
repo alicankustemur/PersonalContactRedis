@@ -15,6 +15,16 @@ public class PersonServiceImpl implements PersonService
 	@Autowired
 	private PersonRepository repository;
 
+	public PersonRepository getRepository()
+	{
+		return repository;
+	}
+
+	public void setRepository(PersonRepository repository)
+	{
+		this.repository = repository;
+	}
+
 	@Override
 	public void addPerson(Person person)
 	{

@@ -62,6 +62,18 @@ public class PersonRepositoryImpl implements PersonRepository
 
 	}
 
+	@Override
+	public void deleteAll()
+	{
+		List<Person> persons = findAll();
+
+		for (Person person : persons)
+		{
+			delete(person.getId());
+		}
+
+	}
+
 	@PostConstruct
 	public void setup()
 	{
