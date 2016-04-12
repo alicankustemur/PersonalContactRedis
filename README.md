@@ -44,7 +44,7 @@ mvn test
 ```
 or one
 ```sh
-mvn -Dtest=PersonServiceIntegrationTest  test
+mvn -Dtest=PersonControllerWithServiceTest  test
 ```
 
 
